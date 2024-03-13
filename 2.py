@@ -19,4 +19,24 @@ print(list1)
 print()
 
 tuple1=("car","van","bike")
-print(
+print(tuple1)
+print(type(tuple1))
+list1.extend(tuple1)
+print(list1)
+
+print()
+
+set1={'a','b','c','d',}
+print(set1)
+print(type(set1))
+
+print()
+
+set2={'a','b','c','d','a'}
+print(set2)
+set2.add('e')
+print(set2)
+
+di1={"number": 2,"brand":"Sofa"}
+print(di1)
+print(type(di1))
